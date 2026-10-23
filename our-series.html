@@ -25,23 +25,46 @@
         <nav id="primary-navigation" aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="books.html" aria-current="page">Books</a></li>
-                <li><a href="our-series.html" class="selected">Our Series</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="our-series.html" class="selected" aria-current="page">Our Series</a></li>
                 <li><a href="fun-free.html">Fun &amp; Free</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main id="books-catalog">
-        <section class="catalog-intro" aria-labelledby="catalog-title">
-            <p class="eyebrow">Stories, coloring &amp; play</p>
-            <h1 id="catalog-title">Books for big imaginations</h1>
-            <p>Explore stories and activities from Fauneye Studio.</p>
+    <main class="content-page">
+        <section class="content-hero" aria-labelledby="series-title">
+            <p class="eyebrow">Meet the characters</p>
+            <h1 id="series-title">Our Series</h1>
+            <p>Step into a world of curious characters, unexpected discoveries, and friends who help make every
+                adventure brighter.</p>
         </section>
-
-        <p class="catalog-status" role="status">Loading books…</p>
-        <div id="product-catalog" aria-live="polite"></div>
+        <section class="series-grid" aria-label="Fauneye Studio book series">
+            <article class="series-card">
+                <div class="series-card-art" aria-hidden="true">✦</div>
+                <p class="eyebrow">Storybook adventures</p>
+                <h2>Adventures of Batwick</h2>
+                <p>Join Batwick and a growing circle of woodland friends as they follow clues, solve little mysteries,
+                    and find their way through surprising adventures.</p>
+                <a class="content-link" href="book-details.html?product=11">Meet Batwick <span
+                        aria-hidden="true">→</span></a>
+            </article>
+            <article class="series-card">
+                <div class="series-card-art" aria-hidden="true">☾</div>
+                <p class="eyebrow">A glowing night-time adventure</p>
+                <h2>Batwick and the Moon Lantern</h2>
+                <p>When the Moon Lantern goes flying, Batwick and friends work together to save the Halloween parade—and
+                    discover a new way to make the night shine.</p>
+                <a class="content-link" href="book-details.html?product=15">Explore this story <span
+                        aria-hidden="true">→</span></a>
+            </article>
+        </section>
+        <section class="content-cta" aria-labelledby="series-cta-title">
+            <h2 id="series-cta-title">The next page is waiting</h2>
+            <p>Browse every story and activity in the collection.</p>
+            <a class="content-button" href="books.html">Browse all books</a>
+        </section>
     </main>
     <footer class="site-footer">
         <div class="footer-content">
