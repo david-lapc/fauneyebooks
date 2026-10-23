@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stories, coloring books, and activities from Fauneye Studio.">
+    <title>Fauneye Studio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                Fauneye Studio
+            </a>
+        </div>
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false"
+            aria-controls="primary-navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="primary-navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html" class="selected">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="our-series.html">Our Series</a></li>
+                <li><a href="fun-free.html">Fun &amp; Free</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="hero">
+            <div class="hero-text">
+                <h1>
+                    <span class="little">Little stories.</span>
+                    <span class="big">Big</span> imaginations.
+                </h1>
+                <p>Discover stories, coloring books, and creative activities for curious young readers.</p>
+                <a class="button" href="#featured-books">
+                    Explore the Books →
+                </a>
+            </div>
+        </div>
+        <section id="featured-books" aria-labelledby="featured-books-title">
+            <div class="section-heading">
+                <p class="eyebrow">Made for curious little readers</p>
+                <h2 id="featured-books-title">Featured books</h2>
+                <p>Meet a few of the stories and activities from Fauneye Studio.</p>
+            </div>
+            <p class="catalog-status" role="status">Loading featured books…</p>
+            <div class="book-grid" id="featured-product-grid" aria-live="polite"></div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a class="footer-logo" href="index.html">Fauneye Studio</a>
+                <p>Little stories, creative moments, and big imaginations.</p>
+            </div>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <a href="index.html">Home</a>
+                <a href="books.html">All books</a>
+                <a href="index.html#featured-books">Featured books</a>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Fauneye Studio. All rights reserved.</p>
+            <a href="#logo">Back to top <span aria-hidden="true">↑</span></a>
+        </div>
+    </footer>
+</body>
+
+</html>

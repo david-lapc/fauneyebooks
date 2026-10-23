@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Browse the complete Fauneye Studio collection of coloring books, storybooks, and activity books.">
+    <title>All Books | Fauneye Studio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="logo"><a href="index.html">Fauneye Studio</a></div>
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false"
+            aria-controls="primary-navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <nav id="primary-navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html" aria-current="page">Books</a></li>
+                <li><a href="our-series.html" class="selected">Our Series</a></li>
+                <li><a href="fun-free.html">Fun &amp; Free</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="books-catalog">
+        <section class="catalog-intro" aria-labelledby="catalog-title">
+            <p class="eyebrow">Stories, coloring &amp; play</p>
+            <h1 id="catalog-title">Books for big imaginations</h1>
+            <p>Explore stories and activities from Fauneye Studio.</p>
+        </section>
+
+        <p class="catalog-status" role="status">Loading books…</p>
+        <div id="product-catalog" aria-live="polite"></div>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a class="footer-logo" href="index.html">Fauneye Studio</a>
+                <p>Little stories, creative moments, and big imaginations.</p>
+            </div>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <a href="index.html">Home</a>
+                <a href="books.html">All books</a>
+                <a href="index.html#featured-books">Featured books</a>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Fauneye Studio. All rights reserved.</p>
+            <a href="#logo">Back to top <span aria-hidden="true">↑</span></a>
+        </div>
+    </footer>
+</body>
+
+</html>
